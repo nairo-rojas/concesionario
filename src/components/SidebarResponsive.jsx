@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { setState } from 'react';
 import { Link } from 'react-router-dom';
 
 const SidebarResponsive = () => {
-  const [mostrarNavegacion, setMostrarNavegacion] = useState(false);
+  const [mostrarNavegacion, setMostrarNavegacion] = setState(false);
   return (
     <div
       className='sm:hidden'
